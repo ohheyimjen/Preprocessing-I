@@ -137,6 +137,7 @@ body {
 }
 h1 {
   font-size: 2rem;
+  color: #275399;
 }
 h2 {
   font-size: 1.5rem;
@@ -146,10 +147,12 @@ h3 {
 }
 .navigation {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-around;
 }
 .navigation a {
-  align-content: space-between;
+  text-decoration: none;
+  color: black;
 }
 .title {
   margin: 30px;
@@ -169,4 +172,42 @@ h3 {
   margin: 0 auto;
   width: 250px;
   border: 1px solid black;
+}
+.fetch {
+  display: flex;
+  flex-direction: column;
+  color: #275399;
+}
+.fetch button {
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+  background: -o-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 7px 14px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #000000 0 1px 0;
+  -moz-box-shadow: #000000 0 1px 0;
+  box-shadow: #000000 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: white;
+  font-size: 14px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+}
+.fetch .button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+.fetch .button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
 }
