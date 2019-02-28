@@ -133,4 +133,40 @@ table {
 html,
 body {
   height: 100%;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.navigation a {
+  align-content: space-between;
+}
+.title {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 20px;
+  border: 1px solid black;
+}
+.title header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1.5px dotted black;
+}
+.title .headshot {
+  margin: 0 auto;
+  width: 250px;
+  border: 1px solid black;
 }

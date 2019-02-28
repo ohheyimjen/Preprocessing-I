@@ -55,6 +55,58 @@ table {
 
 html, body {
 	height: 100%;
-	background-color;
+	line-height: 1.5;	
 }
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+.center() {
+	display: flex;
+	align-items: center;
+}
+
+.border() {
+	border: 1px solid black;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	a {
+		align-content: space-between;
+	}
+	
+}
+
+.title {
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	padding: 20px;
+	.border();
+
+	header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-bottom: 1.5px dotted black;
+	}
+	.headshot {
+		margin: 0 auto;
+		width: 250px;
+		.border();
+	}
+}
+
 

@@ -33,7 +33,7 @@ Follow these steps for completing your project.
 * [X] Content: Intro - Have a short introduction as to why you would be a good hire
 * [X] Content: Skills - Showcase a list of skills you have somewhere on your resume
 * [X] Content: Work History - Showcase your work history somewhere on your resume
-* [ ] Content: Contact - Provide some way a potential employer could contact you.  Phone number, email, or a full on contact form (doesn't have to work)
+* [X] Content: Contact - Provide some way a potential employer could contact you.  Phone number, email, or a full on contact form (doesn't have to work)
 * [ ] Variables: Incorporate variables in your project for color and font stacks.  
 * [ ] Nesting: Every selector should be nested inside the main container.  Avoid having global styles unless they are element level.
 * [ ] Mixins: Create 2 mixins of your choosing. Hint: It's super helpful to use flexbox properties in mixins
